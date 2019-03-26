@@ -35,8 +35,8 @@ kubectl create clusterrolebinding cluster-admin-binding \
 
 Execute the following command:
 
-``` ./download.sh 
-```
+   ``` ./download_istio.sh ``` 
+
 
 #### Setup and deploy the Istio Custom Resource Definitions 
 
