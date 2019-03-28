@@ -41,13 +41,13 @@ Execute the following command:
 #### Setup and deploy the Istio Custom Resource Definitions 
 
    Note: It is assumed that the scripts will be executed from 
-  		 the current working directory. In other words 
+  		 the top level HOME directory. In other words 
 		 ``` ~/$HOME/pan_google_next_istio_lab/``` directory. 
 
    Execute the following command: 
    ``` ./istio-cfg.sh install_istio ```
 
-`Script link`: ``` https://github.com/vinayvenkat/gke_k8s_deployer/blob/master/istio-cfg.sh ```
+`Script link`: ``` https://github.com/PaloAltoNetworks/pan_google_next_istio_lab/blob/master/istio-cfg.sh ```
 
 #### Verify the Istio installation 
 
@@ -80,7 +80,7 @@ Execute the following command:
 	
 	Execute the following command:
 
-	``` ./istio-cfg create_namespace pan-gcp-lab ```
+	``` ./istio-cfg.sh create_namespace pan-gcp-lab ```
 
 #### Install the application 
 

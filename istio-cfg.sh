@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ISTIO_DIR=$HOME/gcp_next_labs/istio-1.1.1
+ISTIO_DIR=$HOME/pan_google_next_istio_lab/istio-1.1.1
 
 if [ "$#" -eq 0 ]; then
     echo "Error. Please check usage. " \
